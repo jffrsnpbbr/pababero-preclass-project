@@ -9,7 +9,7 @@ def average_age(ages)
 
   ages.each do |age|
     if (age >= 18)
-      adults++
+      adults += 1
       adults_age_sum += age
     end
   end
@@ -17,4 +17,4 @@ def average_age(ages)
   adults_age_sum / adults
 end
 
-p average_age([17,17,25,17,17])
+p average_age([17,25,25,17,17])
